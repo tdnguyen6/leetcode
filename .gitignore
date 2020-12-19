@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# Cmake build dir
+**/bin
+
+# executables
+**/*.out
+**/*.exe
+
+# cmake output
+**/cmake-build**
+
+
+**/node_modules
+**/.idea
+**/.vscode
